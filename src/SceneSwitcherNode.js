@@ -20,7 +20,7 @@
       if (BEAN < 48 * 4) {
         selectedScene = this.inputs.A;
       } else {
-        selectedScene = this.inputs.B;
+        selectedScene = this.inputs.A;
       }
 
       selectedScene.enabled = true;
