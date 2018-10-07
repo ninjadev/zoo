@@ -62,6 +62,72 @@
         y: 0,
         zoom: 4,
         rotation: 0,
+      }, {
+        path: 'res/tvboy.jpg',
+        x: 0,
+        y: 0,
+        zoom: 4,
+        rotation: Math.PI,
+      }, {
+        path: 'res/seamonster.jpg',
+        x: 0,
+        y: 0,
+        zoom: 4,
+        rotation: -3.48 / 360 * Math.PI * 2,
+      }, {
+        path: 'res/octo.jpg',
+        x: 330 - 960,
+        y: 680 - 540,
+        zoom: 4,
+        rotation: -130.97 / 360 * Math.PI * 2,
+      }, {
+        path: 'res/dragonshrimp.jpg',
+        x: 1625 - 960,
+        y: 239 - 540,
+        zoom: 4,
+        rotation: -18.53 / 360 * Math.PI * 2,
+      }, {
+        path: 'res/eyes.jpg',
+        x: 240 - 960,
+        y: 135 - 540,
+        zoom: 4,
+        rotation: 90 / 360 * Math.PI * 2,
+      }, {
+        path: 'res/dudes.jpg',
+        x: 0,
+        y: 0,
+        zoom: 4,
+        rotation: -90 / 360 * Math.PI * 2,
+      }, {
+        path: 'res/yinyang.jpg',
+        x: 616 - 960,
+        y: 559 - 540,
+        zoom: 4,
+        rotation: -56.12 / 360 * Math.PI * 2,
+      }, {
+        path: 'res/roses.jpg',
+        x: 1548 - 960,
+        y: 769 - 540,
+        zoom: 4,
+        rotation: 19.65 / 360 * Math.PI * 2,
+      }, {
+        path: 'res/organiball.jpg',
+        x: 1299 - 960,
+        y: 297 - 540,
+        zoom: 4,
+        rotation: -126.78 / 360 * Math.PI * 2,
+      }, {
+        path: 'res/coolcat.jpg',
+        x: 635 - 960,
+        y: 471 - 540,
+        zoom: 4,
+        rotation: -43.66 / 360 * Math.PI * 2,
+      }, {
+        path: 'res/bact.jpg',
+        x: 0,
+        y: 0,
+        zoom: 4,
+        rotation: 0,
       }];
       for(let image of this.images) {
         image.element = document.createElement('img');
